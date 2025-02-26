@@ -1,0 +1,26 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+	"name": "C",
+	"build": {
+    "dockerfile": "Dockerfile"
+  },
+	"customizations": {
+    "vscode": {
+      "extensions": [
+        "editorconfig.editorconfig",
+        "ms-python.autopep8",
+        "ms-python.flake8",
+        "ms-python.python",
+        "ms-vscode.cpptools",
+        "ms-vscode.hexeditor"
+      ],
+      "settings": {
+        "C_Cpp.clang_format_fallbackStyle": "{ AllowShortFunctionsOnASingleLine: Empty, BraceWrapping: { AfterCaseLabel: true, AfterControlStatement: true, AfterFunction: true, AfterStruct: true, BeforeElse: true, BeforeWhile: true }, BreakBeforeBraces: Custom, ColumnLimit: 100, IndentCaseLabels: true, IndentWidth: 4, SpaceAfterCStyleCast: true, TabWidth: 4 }", /* https://clang.llvm.org/docs/ClangFormatStyleOptions.html */
+        "C_Cpp.doxygen.generateOnType": false,
+        "C_Cpp.enhancedColorization": "enabled",
+        "C_Cpp.formatting": "clangFormat"
+      }
+    }
+  }
+}
