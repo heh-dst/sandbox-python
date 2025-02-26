@@ -8,6 +8,7 @@
       "extensions": [
         "aaron-bond.better-comments",
         "adpyke.codesnap",
+        "cs50.vscode-presentation-mode",
         "editorconfig.editorconfig",
         "esbenp.prettier-vscode",
         "GitHub.github-vscode-theme",
